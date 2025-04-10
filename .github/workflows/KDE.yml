@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: depobuntu-24.04-64
+    runs-on: depot-ubuntu-24.04-32
     steps:
       - uses: actions/checkout@v4
       - run: sudo mkdir /mnt/runner-will-upload
